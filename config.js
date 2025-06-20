@@ -8,19 +8,19 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "put your session id here",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~5UZSXLZY#e_2773Aiomf7LWwB9JzYI5IK1NsR42k7wjJp0t_TCOE",
 // add your Session Id 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STICKER: process.env.AUTO_STICKER || "true",
  //make true if you want auto sticker   
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY MEGALODON-MD 🤍*",
 // set the auto reply massage on status reply  
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
@@ -38,7 +38,7 @@ PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "𝐌𝐄𝐆𝐀𝐋𝐎𝐃𝐎𝐍-𝐌𝐃",
 // add bot name here for menu
-STICKER_NAME: process.env.STICKER_NAME || "put your name",
+STICKER_NAME: process.env.STICKER_NAME || "👑⃟≛⃝𝙗𝙖𝙙 𝙗𝙤𝙮🕊️⃟⋆",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custom emoji react    
@@ -46,9 +46,9 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // choose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links without removing member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "50943839981",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ᴅʏʙʏ ᴛᴇᴄʜ",
+OWNER_NAME: process.env.OWNER_NAME || "👑⃟≛⃝𝙗𝙖𝙙 𝙗𝙤𝙮🕊️⃟⋆",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴇɢᴀʟᴏᴅᴏɴ ᴍᴅ*",
 // bot description    
@@ -62,9 +62,9 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // public/private/inbox/group 
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // kick user if share link 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // auto voice messages
@@ -74,13 +74,13 @@ AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // false if want private mode
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // show typing status   
 READ_CMD: process.env.READ_CMD || "false",
 // mark commands as read 
-DEV: process.env.DEV || "50934960331",
+DEV: process.env.DEV || "50943839981",
 // your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // anti view once 
